@@ -21,5 +21,11 @@ By using this data to predict the distance, we choose the Linear Regression mode
 In this part, we choose several machine learning models to finish distance prediction and compare the influence of camera type. Besides the data we collect in experiment 1 and 2, we also collect the data of the second person using a different camera (Dell G5).
 By using this data to predict the distance, we choose the Linear Regression model, Polynomial Ridge Regression model, Random Regression model, and ElasticNet Regression model. For the Polynomial Ridge Regression model, we select different Poly Features, such as 3 Poly Features and 4 Poly Features. For the Random Regression model, we compare 2 max depth models and no max depth models. 
 ## Results
+<p align="center">
+  <img src="https://github.com/hugh58623/Collision-Detection/blob/main/Cross%20Validation%20Average%20Testing%20Scores.png?raw=true" alt="Cross Validation Average Testing Scores"/>
+</p>
 Figure 6 shows the Cross Validation Average Testing Scores for different model. From Figure 6, we can know that Random Forest (depth=2) get the highest score and ElasticNet Regression get the lowest score. In this way, we could say Random Forest (depth=2) is the most suitable model for the data.
+<p align="center">
+  <img src="https://github.com/hugh58623/Collision-Detection/blob/main/Feature%20Importance.png?raw=true" alt="Feature Importance"/>
+</p>
 Figure 7 shows the influence of various factors on distance prediction. We can know that the percentage of screen width is the most important factor to predict the distance. The camera and the object has less influence on prediction.
