@@ -24,8 +24,8 @@ By using this data to predict the distance, we choose the Linear Regression mode
 <p align="center">
   <img src="https://github.com/hugh58623/Collision-Detection/blob/main/Cross%20Validation%20Average%20Testing%20Scores.png?raw=true" alt="Cross Validation Average Testing Scores"/>
 </p>
-Figure 6 shows the Cross Validation Average Testing Scores for different model. From Figure 6, we can know that Random Forest (depth=2) get the highest score and ElasticNet Regression get the lowest score. In this way, we could say Random Forest (depth=2) is the most suitable model for the data.
+This figure shows the Cross Validation Average Testing Scores for different model. From Figure 6, we can know that Random Forest (depth=2) get the highest score and ElasticNet Regression get the lowest score. In this way, we could say Random Forest (depth=2) is the most suitable model for the data.
 <p align="center">
   <img src="https://github.com/hugh58623/Collision-Detection/blob/main/Feature%20Importance.png?raw=true" alt="Feature Importance"/>
 </p>
-Figure 7 shows the influence of various factors on distance prediction. We can know that the percentage of screen width is the most important factor to predict the distance. The camera and the object has less influence on prediction.
+This figure shows the influence of various factors on distance prediction. We can know that the percentage of screen width is the most important factor to predict the distance. The camera and the object has less influence on prediction.
